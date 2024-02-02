@@ -1,0 +1,43 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.business-card {
+    max-width: 270px;
+    width: 100%;
+    background-color: #ccc6c6;
+    box-shadow: 16px 10px 13px rgba(0, 0, 0, 0.655);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    padding: 15px;
+    background-color: #25555cd4;
+    color: #eae8e8;
+}
+
+.header img {
+    width: 120px;
+    height: 155px;
+    border-radius: 50%;
+}
+
+.header h1 {
+    margin: 5px 0 5px 0;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
